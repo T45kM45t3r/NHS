@@ -288,3 +288,211 @@ nhsuk-u-visually-hidden {
     white-space: nowrap;
     width: 1px;
 }
+.nhsuk-header__navigation-list {
+    border-top: 1px solid rgba(255,255,255,.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+}
+.nhsuk-header__navigation-list {
+    list-style: none;
+    margin: 0;
+}
+.nhsuk-header__navigation-item {
+    border-top: 0;
+    margin: 0;
+    text-align: center;
+}
+.nhsuk-header__navigation-item--for-mobile {
+    display: none;
+}
+.nhsuk-header__navigation-item {
+    position: relative;
+}
+.nhsuk-header__navigation-link:visited {
+    color: #fff;
+}
+.nhsuk-header__navigation-link {
+    line-height: normal;
+}
+.nhsuk-header__navigation-link {
+    font-size: 1rem;
+}
+.nhsuk-header__navigation-link {
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nhsuk-header__navigation-item .nhsuk-icon__chevron-right {
+    display: none;
+}
+.nhsuk-header__navigation-link .nhsuk-icon__chevron-right {
+    fill: #aeb7bd;
+    position: absolute;
+    right: 4px;
+    top: 11px;
+}
+.nhsuk-icon {
+    height: 34px;
+    width: 34px;
+}
+.nhsuk-header__navigation-link:visited {
+    color: #fff;
+}
+.nhsuk-header__navigation-item {
+    border-top: 0;
+    margin: 0;
+    text-align: center;
+}
+.nhsuk-header__navigation-item {
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.nhsuk-header__navigation-link:visited {
+    color: #fff;
+}
+.nhsuk-header__navigation-link {
+    line-height: normal;
+}
+.nhsuk-header__navigation-link {
+    font-size: 1rem;
+}
+.nhsuk-header__navigation-link {
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nhsuk-header__navigation-item .nhsuk-icon__chevron-right {
+    display: none;
+}
+.nhsuk-header__navigation-link .nhsuk-icon__chevron-right {
+    fill: #aeb7bd;
+    position: absolute;
+    right: 4px;
+    top: 11px;
+}
+.nhsuk-icon {
+    height: 34px;
+    width: 34px;
+}
+.nhsuk-header__navigation-item {
+    border-top: 0;
+    margin: 0;
+    text-align: center;
+}
+.nhsuk-header__navigation-item {
+    position: relative;
+}
+.nhsuk-header__navigation-link {
+    color: #fff;
+    line-height: normal;
+}
+.nhsuk-header__navigation-link {
+    font-size: 1rem;
+}
+.nhsuk-header__navigation-link {
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nhsuk-header__navigation-item .nhsuk-icon__chevron-right {
+    display: none;
+}
+.nhsuk-header__navigation-link .nhsuk-icon__chevron-right {
+    fill: #aeb7bd;
+    position: absolute;
+    right: 4px;
+    top: 11px;
+}
+.nhsuk-icon {
+    height: 34px;
+    width: 34px;
+}
+.nhsuk-header__navigation-item {
+    border-top: 0;
+    margin: 0;
+    text-align: center;
+}
+.nhsuk-header__navigation-item {
+    position: relative;
+}
+.nhsuk-header__navigation {
+    max-width: 960px;
+}
+.nhsuk-header__navigation {
+    background-color: #005eb8;
+    display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.app-global-alert {
+    background-color: #ffeb3b;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.nhsuk-width-container {
+    margin: 0 auto;
+    max-width: 960px;
+    box-sizing: inherit;
+}
+.nhsuk-grid-row {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.nhsuk-grid-column-full {
+    float: left;
+    width: 100%;
+}
+.nhsuk-grid-column-full {
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+.app-global-alert__content {
+    position: relative;
+}
+.app-global-alert__content > :last-child {
+    margin-bottom: 0;
+}
+.app-global-alert__content > :first-child {
+    margin-top: 0;
+}
+.app-global-alert__message h2, .app-global-alert__message h3 {
+    font-size: 24px;
+    line-height: 1.33333;
+    margin: 0;
+}
+.nhsuk-heading-l, h2 {
+    margin-bottom: 24px;
+}
+.nhsuk-heading-l, h2 {
+    display: block;
+    font-weight: 600;
+  }
+  .app-global-alert a {
+      color: #005eb8;
+  }
+  .nhsuk-grid-row::after {
+      clear: both;
+      content: '';
+      display: block;
+  }
+  .nhsuk-breadcrumb {
+      background-color: #fff;
+      padding-bottom: 12px;
+      padding-top: 12px;
+    }
+      nav, section {
+          display: block;
+      }
