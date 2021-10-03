@@ -17,7 +17,7 @@
     </div>
     <div class="nhsuk-header__search">
       <div class="nhsuk-header__search-wrap beta-header__search-wrap js-show" id="wrap-search">
-        <form class="nhsuk-header__search" action="/search/" method="get" role="search">
+        <form class="nhsuk-header__search-form beta-header__search-form" id="search" action="/search/" method="get" role="search">
             <label class="nhsuk-u-visually-hidden" for="search-field">Search the NHS website</label>
             <div class="autocomplete-container" id="autocomplete-container">
               <div class="autocomplete-wrapper">
@@ -27,8 +27,31 @@
                 <div id="search-field__status--B" role="status" aria-atomic="true" aria-live="polite"></div>
                 </div>
                 <input aria-expanded="false" aria-owns="search-field__listbox" aria-autocomplete="list"
-                aria-describedby="search-field_assistiveHint" autocomplete="off"
+                aria-describedby="search-field__assistiveHint" autocomplete="off"
                 class="autocomplete__input autocomplete__input--default" id="search-field" name="q" placeholder="Search"
                 type="search" role="combobox">
+                <ul class="autocomplete__menu autocomplete__menu--inline autocomplete__menu--hidden" id="search-field__listbox"
+                role="listbox"></ul>
+              <span id="search-field__assistiveHint" style="display: none;">
+                "when autocomplete results are available use up and down arrows to review and enter to select.
+                Touch device users, explore by touch or with swipe gestures."
+              </span>
+            </div>
+          </div>
+          <button class="nhsuk-search__submit beta-search__submit" type="submit">
+            <svg class="nhsuk-icon nhsuk-icon__search beta-icon__search" xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24"
+            aria-hidden="true" focusable="false">
+              <path d="M19.71 18.291-4.11-4.1a7 7 0 1 0-1.41 1.4114.1 4.11a1 1 0 0 0 1.42 0 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+            </svg>
+            <span class="nhsuk-u-visually-hidden">Search</span>
+          </button>
         </form>
+        ::after
+        </div>
+        ::after
+        </div>
+        ::after
+        </div>
+        ::after
+        </div>
 </body>
