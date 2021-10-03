@@ -28,3 +28,72 @@ body{
   margin: 0;
   min-height: 100%;
 }
+
+.nhsuk-header__link{
+  height: 40px;
+  width: 100px;
+  display:block;
+  color: #005eb8;
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #d8dde0;
+  font-family: Frutiger W01,Arial,Sans-serif;
+  overflow-y: scroll;
+}
+.nhsuk-header__content{
+  float: right;
+  position: relative;
+}
+
+.nhsuk-header__content:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.nhsuk-header__menu{
+  float: left;
+}
+
+.nhsuk-header__menu-toggle{
+  margin-top: 0px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 0px;
+  padding: 7px 16px;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+
+button {
+  font-family: inherit;
+  appearance:auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  align-items: flex-start;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+}
+
+.nhsuk-header__search{
+  float: left;
+  margin-left: 8px;
+  position: relative;
+  text-align: right;
+}
+
+div{
+  display: block;
+}
