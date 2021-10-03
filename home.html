@@ -17,5 +17,18 @@
     </div>
     <div class="nhsuk-header__search">
       <div class="nhsuk-header__search-wrap beta-header__search-wrap js-show" id="wrap-search">
-        
+        <form class="nhsuk-header__search" action="/search/" method="get" role="search">
+            <label class="nhsuk-u-visually-hidden" for="search-field">Search the NHS website</label>
+            <div class="autocomplete-container" id="autocomplete-container">
+              <div class="autocomplete-wrapper">
+                <div style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin-bottom: -1px;
+                margin-right: -1px; overflow:hidden; padding: 0px; position: absolute; white-space: nowrap; width: 1px;"
+                <div id="search-field__status--A" role="status" aria-atomic="true" aria-live="polite"></div>
+                <div id="search-field__status--B" role="status" aria-atomic="true" aria-live="polite"></div>
+                </div>
+                <input aria-expanded="false" aria-owns="search-field__listbox" aria-autocomplete="list"
+                aria-describedby="search-field_assistiveHint" autocomplete="off"
+                class="autocomplete__input autocomplete__input--default" id="search-field" name="q" placeholder="Search"
+                type="search" role="combobox">
+        </form>
 </body>
