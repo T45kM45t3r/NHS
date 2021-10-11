@@ -1,3 +1,14 @@
+meta{
+  display: none;
+}
+
+title{
+  display: none;
+}
+
+link{
+  display: none;
+}
 .nhs-skip-link{
   left:-9999px;
   padding: 8px;
